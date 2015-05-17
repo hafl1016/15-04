@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.parse'
+
+buildscript {
+  repositories {
+    mavenCentral()
+    maven { url 'https://maven.parse.com/repo' }
+  }
+  dependencies {
+    classpath 'com.parse.tools:gradle:1.+'
+  }
+}
+
+dependencies {
+
+    compile 'com.android.support:appcompat-v7:22.0.0'
+    compile 'com.parse.bolts:bolts-android:1.2.0'
+
+   // compile fileTree(dir: 'libs', include: 'Parse-*.jar')
+    compile fileTree(dir: 'libs', include: 'ParseCrashReporting-*.jar')
+    //compile files('C://Users//Flo//Android_studioProject//15-04//ParseLoginUI//libs/ParseFacebookUtilsV4-1.9.1.jar')
+    //compile files('C://Users//Flo//Android_studioProject//15-04//ParseLoginUI//libs/Parse-1.9.1.jar')
+
+    compile rootProject.ext.facebookSDK
+    compile project(':ParseLoginUI')
+    compile rootProject.ext.androidSupport
+    compile files(rootProject.ext.parsePath)
+    compile files(rootProject.ext.parseFacebookUtilsPath)
+/*
+    // Module dependency on ParseLoginUI library sources
+    compile project(':ParseLoginUI')
+
+// If your app's project does not have the Parse Android SDK already, copy it into your
+// project at YOUR_PROJECT_LIBS_PATH.
+ //   compile files('YOUR_PROJECT_LIBS_PATH/Parse-1.9.1.jar')
+  //  compile files('YOUR_PROJECT_LIBS_PATH/ParseFacebookUtilsV4-1.9.1.jar')
+
+// Uncomment if using Facebook Login (optional Maven dependency)
+ compile 'com.facebook.android:facebook-android-sdk:4.0.1'*/
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+        }
+    }
+}
+
+/* Uncomment if you enable ProGuard and you want to automatically upload symbols on build.
+parse {
+  applicationId YOUR_APPLICATION_ID
+  masterKey YOUR_MASTER_KEY
+
+  // Make symbol upload automatic. Otherwise, use e.g. ../gradlew parseUploadSymbolsDebug;
+  uploadSymbols true
+}
+*/

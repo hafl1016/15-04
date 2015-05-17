@@ -1,0 +1,11 @@
+C:\Users\Flo\Android_studioProject\15-04\ParseStarterProject\build\intermediates\classes\debug
+C:\Users\Flo\Android_studioProject\15-04\ParseStarterProject\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-a14fc09f65d24bd0eeeefe46e21c562ad0223b30.jar
+C:\Users\Flo\Android_studioProject\15-04\ParseStarterProject\build\intermediates\pre-dexed\debug\ParseFacebookUtilsV4-1.9.1-5a0da7eeff0d9b5fe4ca5ab5ff76433acaae5c66.jar
+C:\Users\Flo\Android_studioProject\15-04\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-021cfee291a60f1fe8fc629c21a10c5aafcc89d0.jar
+C:\Users\Flo\Android_studioProject\15-04\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-88daef29c8655f3a25730811867edebed0e94d06.jar
+C:\Users\Flo\Android_studioProject\15-04\ParseStarterProject\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.9.1-e0f03a9e9f6431333099056d0a7024a4ba1616a1.jar
+C:\Users\Flo\Android_studioProject\15-04\ParseStarterProject\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-067a29b59f56244ca2fca8a4cd5bc8a4cd209a47.jar
+C:\Users\Flo\Android_studioProject\15-04\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-1a67657f9affa7b4929200a600e0ce485fd4fb29.jar
+C:\Users\Flo\Android_studioProject\15-04\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-73ba843fda7e096f3044f91b42464e7fc0ba0fce.jar
+C:\Users\Flo\Android_studioProject\15-04\ParseStarterProject\build\intermediates\pre-dexed\debug\Parse-1.9.1-6d7ae2f10345832ba4fce0865ce201785a1d776a.jar
+C:\Users\Flo\Android_studioProject\15-04\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-9c108add36484b0ecdb039253f05fd9ea58358e2.jar
